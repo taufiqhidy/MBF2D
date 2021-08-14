@@ -34,7 +34,7 @@ def mbf2d():
     print("\033[1;94m[\033[93m2\033[1;95m] UPGRADE")
     print("\033[1;94m[\033[93m4\033[1;95m] KELUAR")
     time.sleep(0.1)
-    f=input("\n\033[90m> \033[1;93m")
+    f=input("\n\033[90m[▪▪]> \033[1;93m")
     if f == "1":
          print("\033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
          mbasic = 'https://mbasic.facebook.com{}'
