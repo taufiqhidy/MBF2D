@@ -29,12 +29,12 @@ def balik():
        sys.exit("\033[1;91mexit\033[00m")
 def mbf2d():
     time.sleep(0.1)
-    print("\033[94m[\033[93m1\033[94m] MASUK")
-    print("\033[94m[\033[93m2\033[94m] JOIN GROUP WHATSAPP")
-    print("\033[94m[\033[93m3\033[94m] UPGRADE")
-    print("\033[94m[\033[93m4\033[94m] KELUAR")
+    print("\033[94m[\033[93m1\033[94m] MÂŠÛĶ")
+    print("\033[94m[\033[93m2\033[94m] ÛPĞŘÂĎÊ")
+    print("\033[94m[\033[93m3\033[94m] JÔÎŇ ĞŘÔÛP WHÂŤŠÂPP")
+    print("\033[94m[\033[93m4\033[94m] ĶÊŁÛÂŘ")
     time.sleep(0.1)
-    f=input("\n\033[90m[▪▪]> \033[1;93m")
+    f=input("\n\033[89[▪▪]> \033[1;92m")
     if f == "1":
          print("\033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
          mbasic = 'https://mbasic.facebook.com{}'
