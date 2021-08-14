@@ -29,10 +29,10 @@ def balik():
        sys.exit("\033[1;91mexit\033[00m")
 def mbf2d():
     time.sleep(0.1)
-    print("\033[1;94m[\033[93m1\033[1;95m] MASUK")
-    print("\033[1;94m[\033[93m1\033[1;95m]
-    print("\033[1;94m[\033[93m2\033[1;95m] UPGRADE")
-    print("\033[1;94m[\033[93m4\033[1;95m] KELUAR")
+    print("\033[1;94m[\033[93m1\033[00m] MASUK")
+    print("\033[1;94m[\033[93m1\033[00m]
+    print("\033[1;94m[\033[93m2\033[00m] UPGRADE")
+    print("\033[1;94m[\033[93m4\033[00m] KELUAR")
     time.sleep(0.1)
     f=input("\n\033[90m[▪▪]> \033[1;93m")
     if f == "1":
