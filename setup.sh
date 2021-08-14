@@ -74,5 +74,5 @@ echo
 echo
 echo "       [√] install commando done..."
 echo
-echo "     type python2 MBF2D.py to continue "
+echo "     type python MBF2D.py to continue "
 echo
