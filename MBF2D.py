@@ -173,7 +173,7 @@ def mbf():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    clear()
-                   gblk()
+                   baner()
                    aink('\033[1;91m[\033[1;93m1\033[1;97m] \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ')
                    aink('\033[1;91m[\033[1;93m2\033[1;97m] \033[00mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠ\033[1;97m ')
                    aink('\033[1;91m[\033[1;93m3\033[1;97m] \033[00mŘÔĶÊĎ ĎÂŘÎ PÊÑČÂŘÎÂŇ ŇÂMÂ')
@@ -297,6 +297,6 @@ def mbf():
 
 if __name__=="__main__":
      clear()
-     gblk()
+     baner()
      mbf()
      balik()
