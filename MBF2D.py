@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 def clear():
     os.system("clear")
-def kata(s):
+def aink(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
