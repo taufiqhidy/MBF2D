@@ -4,7 +4,8 @@
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
-def clear():
+
+def krik_krik_milzu():
     os.system("clear")
 def aink(s):
     for c in s + '\n':
