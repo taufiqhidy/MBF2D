@@ -49,7 +49,7 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[90m[ \033[1;92mSELAMAT DATANG @everyone !! \033[90m]
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
-def baner():
+def MilzuTC():
     Milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
     if Milzu == "":
        os.system("python MBF2D.py")
@@ -327,11 +327,11 @@ def mbf2d():
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
-         baner()  
+         Milzu()  
 
 
 if __name__=="__main__":
      clear()
      peak()
      mbf2d()
-     baner()
+     MilzuTC()
