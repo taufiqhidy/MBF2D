@@ -324,7 +324,7 @@ def mbf2d():
          milzutc()
 
     elif milzu == "4":
-         peak("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+         aink("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
          os.system('xdg-open https://youtube.com/channel/UCqHIxnz-uxVzLXARplFzzqQ-mg')
          exit() 
          
