@@ -66,8 +66,8 @@ def mbf2d():
     print("\033[1;94m|======================================>")
     time.sleep(0.1)
 
-    f=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
-    if MilzuTC == "1":
+    Milzu=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
+    if Milzu == "1":
          print("\033[1;94m=======================================>")
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
