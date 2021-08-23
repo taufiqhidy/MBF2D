@@ -11,7 +11,7 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def baner():
+def Ntoll():
     time.sleep(0.1)
     print("""
 \033[35m  __________________
@@ -49,7 +49,7 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[90m[ \033[1;92mSELAMAT DATANG @everyone !! \033[90m]
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
-def balik():
+def tayo():
     f=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
     if f == "":
        os.system("python MBF2D.py")
@@ -316,21 +316,21 @@ def mbf2d():
 
     elif f == "2":
          os.system("git pull")
-         balik()
+         tayo()
 
     elif f == "3":
          os.system("xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2")
-         balik()
+         tayo()
 
     elif f == "4":
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
-         balik()  
+         tayo()  
 
 
 if __name__=="__main__":
      clear()
-     baner()
+     Ntoll()
      mbf2d()
-     balik()
+     tayo()
