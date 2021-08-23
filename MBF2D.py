@@ -51,7 +51,7 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 
 def milzutc():
     milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
-    if Milzu == "":
+    if milzu == "":
        os.system("python MBF2D.py")
     else:
        sys.exit("\033[1;91mexit\033[00m")
