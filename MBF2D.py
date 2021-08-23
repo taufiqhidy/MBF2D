@@ -333,5 +333,5 @@ def mbf2d():
 if __name__=="__main__":
      clear()
      peak()
-     mbf2d()
      MilzuTC()
+     mbf2d()
