@@ -41,7 +41,7 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[1;95m      SUBSCRIBE:MILZUU TC TUTORIAL77
 
 \033[1;95m──────>@uthor:MILZUU-TC      <───────────────╮
-\033[1;95m──────>@whatsapp:083127768957  <───────────────╮
+\033[1;95m──────>@whatsapp:083127768957<───────────────╮
 \033[1;95m╭─────>@Donate :083182713104 <───────────────╮
 \033[1;95m╰──》VIA : DANA,OVO,SHOPEE PAY <───────────────╮
 \033[1;96m─────>CHAT DI WHATSAPP APA YANG PERLU KAMI BANTU  <─╯
