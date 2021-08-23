@@ -82,6 +82,8 @@ def mbf2d():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
+                    krik_krik_milzu()
+                    peak()
                     cek = input("\033[90m> \033[00mCoookies : \033[1;92m")
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
@@ -90,7 +92,7 @@ def mbf2d():
                              with open("cookies","w") as f:
                                      f.write(cek["cookie"])
                      else:
-                           print("\033[90m> \033[00mChange the language, please wait\033[1;91m!!\033[00m")
+                           print("\033[90m> \033[00mChange the language, Harap sabar\033[1;91m!!\033[00m")
                            try:
                                   requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
                            except:
@@ -101,8 +103,9 @@ def mbf2d():
                      except :
                              pass
                      return cek["cookie"]
+                     aink('\033[1;97m[\033[1;94m|+|\033[1;97m] \033[1;92mLogin selesai')
              else:
-                  exit("\033[00m[\033[91m!\033[00m]\033[00mCookies \033[1;91minvalid!!\033[00m")
+                  exit("\033[00m[\033[91m!\033[00m]\033[00mCokies \033[1;91msalah tidak ada respown!!\033[00m")
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
@@ -205,8 +208,8 @@ def mbf2d():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   clear()
-                   mbf2d()
+                   krik_krik_milzu()
+                   peak()
                    aink('\033[1;92mANDA SEDANG AKTIF!')
                    aink('\033[1;97m╭────────────────────────────────────────────────────')
                    aink('\033[1;91m|[\033[1;93m1\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
@@ -333,7 +336,7 @@ def mbf2d():
 
 
 if __name__=="__main__":
-     clear()
+     krik_krik_milzu()
      peak()
      mbf2d()
      milzutc()
