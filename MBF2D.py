@@ -315,15 +315,15 @@ def mbf2d():
                except requests.exceptions.ConnectionError:
                        exit("\033[00m[\033[91m!\033[00m] ConnectionError")
 
-    elif f == "2":
+    elif milzu == "2":
          os.system("git pull")
          milzutc()
 
-    elif f == "3":
+    elif milzu == "3":
          os.system("xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2")
          milzutc()
 
-    elif f == "4":
+    elif milzu == "4":
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
