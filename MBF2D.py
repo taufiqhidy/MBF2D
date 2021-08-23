@@ -5,6 +5,8 @@ import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
+def mulai:
+    os.system("git pull")
 def krik_krik_milzu():
     os.system("clear")
 def aink(s):
@@ -51,11 +53,11 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
 def milzutc():
-    milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
+    milzu=input("\033[00m\t[\033[96m enter to return \033[00m]")
     if milzu == "":
        os.system("python MBF2D.py")
     else:
-       sys.exit("\033[1;91mexit\033[00m")
+       sys.exit("\033[1;91m\033[00m")
 def mbf2d():
     time.sleep(0.1)
     print("\033[1;92mSTATUS ANDA SAAT INI ONLINE !")
@@ -338,7 +340,7 @@ def mbf2d():
 
 if __name__=="__main__":
      krik_krik_milzu()
-     clear()
+     mulai()
      krik_krik_milzu()
      peak()
      mbf2d()
