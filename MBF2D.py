@@ -50,8 +50,8 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
 def baner():
-    f=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
-    if f == "":
+    Milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
+    if Milzu == "":
        os.system("python MBF2D.py")
     else:
        sys.exit("\033[1;91mexit\033[00m")
@@ -65,8 +65,9 @@ def mbf2d():
     print("\033[96m|[\033[96m4\033[96m] ĶÊŁÛÂŘ")
     print("\033[1;94m|======================================>")
     time.sleep(0.1)
+
     f=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
-    if f == "1":
+    if Milzu == "1":
          print("\033[1;94m=======================================>")
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
