@@ -5,7 +5,7 @@ import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
-def mulai:
+def mulai():
     os.system("git pull")
 def krik_krik_milzu():
     os.system("clear")
