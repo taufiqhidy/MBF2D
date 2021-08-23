@@ -317,17 +317,17 @@ def mbf2d():
 
     elif f == "2":
          os.system("git pull")
-         baner()
+         MilzuTC()
 
     elif f == "3":
          os.system("xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2")
-         baner()
+         MilzuTC()
 
     elif f == "4":
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
-         Milzu()  
+         MilzuTC()  
 
 
 if __name__=="__main__":
