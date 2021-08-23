@@ -49,7 +49,7 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[90m[ \033[1;92mSELAMAT DATANG @everyone !! \033[90m]
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
-def tayo():
+def baner():
     f=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
     if f == "":
        os.system("python MBF2D.py")
