@@ -67,7 +67,7 @@ def mbf2d():
     time.sleep(0.1)
     f=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
     if f == "1":
-         print("\033[1;94m======================================>")
+         print("\033[1;94m=======================================>")
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
