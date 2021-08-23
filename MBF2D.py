@@ -11,7 +11,7 @@ def aink(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def Ntoll():
+def peak():
     time.sleep(0.1)
     print("""
 \033[35m  __________________
@@ -205,7 +205,7 @@ def mbf2d():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    clear()
-                   tayo()
+                   baner()
                    aink('\033[1;92mANDA SEDANG AKTIF!')
                    aink('\033[1;97m╭────────────────────────────────────────────────────')
                    aink('\033[1;91m|[\033[1;93m1\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
@@ -316,21 +316,21 @@ def mbf2d():
 
     elif f == "2":
          os.system("git pull")
-         tayo()
+         baner()
 
     elif f == "3":
          os.system("xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2")
-         tayo()
+         baner()
 
     elif f == "4":
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
-         tayo()  
+         baner()  
 
 
 if __name__=="__main__":
      clear()
-     Ntoll()
+     peak()
      mbf2d()
-     tayo()
+     baner()
