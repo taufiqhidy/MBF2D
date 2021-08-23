@@ -87,7 +87,7 @@ def mbf2d():
              except FileNotFoundError:
                     krik_krik_milzu()
                     peak()
-                    cek = input("\033[90m> \033[00mCoookies : \033[1;92m")
+                    cek = input("\033[90m[>_<]⚊>■< \033[00mCoookies 👉 \033[1;92m")
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
