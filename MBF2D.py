@@ -337,6 +337,8 @@ def mbf2d():
 
 if __name__=="__main__":
      krik_krik_milzu()
+     clear()
+     krik_krik_milzu()
      peak()
      mbf2d()
      milzutc()
