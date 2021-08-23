@@ -44,10 +44,10 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[1;95m──────>@whatsapp:083127768957<───────────────╮
 \033[1;95m╭─────>@Donate :083182713104 <───────────────╮
 \033[1;95m╰──》VIA :DANA,OVO,SHOPEE PAY<───────────────╮
-\033[1;96m─────>CHAT DI WHATSAPP APA YANG PERLU KAMI BANTU <─╯
+\033[1;96m──>CHAT DI WHATSAPP APA YANG PERLU KAMI BANTU <─╯
 
 \033[90m[ \033[1;92mSELAMAT DATANG @everyone !! \033[90m]
-\033[1;99m               GUNAKANLAH TOllS INI DENGAN BIJAK    """)
+\033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
 def balik():
     f=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
