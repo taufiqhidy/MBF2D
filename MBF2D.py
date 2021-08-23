@@ -49,8 +49,8 @@ M&F»       »M&F   M&F»M&F»M&F»  M&F
 \033[90m[ \033[1;92mSELAMAT DATANG @everyone !! \033[90m]
 \033[1;99m      GUNAKANLAH TOllS INI DENGAN BIJAK    """)
 
-def MilzuTC():
-    Milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
+def milzutc():
+    milzu=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
     if Milzu == "":
        os.system("python MBF2D.py")
     else:
@@ -66,8 +66,8 @@ def mbf2d():
     print("\033[1;94m|======================================>")
     time.sleep(0.1)
 
-    Milzu=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
-    if Milzu == "1":
+    milzu=input("\n\033[90m╰>[>_<]👉 \033[1;93m")
+    if milzu == "1":
          print("\033[1;94m=======================================>")
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
@@ -206,7 +206,7 @@ def mbf2d():
                    kukis = masuk()
                    kuki = {'cookie':kukis}
                    clear()
-                   MilzuTC()
+                   milzutc()
                    aink('\033[1;92mANDA SEDANG AKTIF!')
                    aink('\033[1;97m╭────────────────────────────────────────────────────')
                    aink('\033[1;91m|[\033[1;93m1\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
@@ -317,21 +317,21 @@ def mbf2d():
 
     elif f == "2":
          os.system("git pull")
-         MilzuTC()
+         milzutc()
 
     elif f == "3":
          os.system("xdg-open https://chat.whatsapp.com/EEl2Erzh6jkEahbYE3QMu2")
-         MilzuTC()
+         milzutc()
 
     elif f == "4":
          sys.exit("\033[00m[\033[91m!\033[00m]\033[91mexit\033[00m")
 
     else:
-         MilzuTC()  
+         milzutc()  
 
 
 if __name__=="__main__":
      clear()
      peak()
      mbf2d()
-     MilzuTC()
+     milzutc()
