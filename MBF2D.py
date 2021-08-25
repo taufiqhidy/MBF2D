@@ -306,9 +306,9 @@ def mbf2d():
                    if check != 0 or result != 0:
                            time.sleep(0.1)
                            print("\033[1;94m===========================================\033[00m")
-                           print("\n\033[00m[\033[92m✓\033[00m] siap")
-                           print("\033[00m[\033[92m✓\033[00m]life : \033[92mresults-life.txt\033[00m")
-                           print("\033[00m[\033[91m!\033[00m]checkpoint : \033[93mresults-check.txt\033[00m")
+                           print("\n\033[00m[\033[92m[*]\033[00m] siap")
+                           print("\033[00m[\033[92m[+]\033[00m]sekarang : \033[92mresults-life.txt\033[00m")
+                           print("\033[00m[\033[91m{!}\033[00m]checkpoint : \033[93mresults-check.txt\033[00m")
                            print("\n\n")
                    
                    else:
