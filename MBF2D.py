@@ -318,8 +318,8 @@ def mbf2d():
                            print("\033[00m[\033[91m!\033[00m] no result")
                except (KeyboardInterrupt,EOFError):
                        exit()
-               except requests.exceptions.ConnectionError:
-                       exit("\033[00m[\033[91m!\033[00m] ConnectionError")
+               except requests.exceptions.Lagi Koneksi Error99%:
+                       exit("\033[00m[\033[91m!\033[00m] Jaringan tidak stabil/(conecting)")
 
     elif milzu == "2":
          os.system("git pull")
