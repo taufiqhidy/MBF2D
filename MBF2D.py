@@ -347,7 +347,7 @@ def mbf2d():
 
 
 if __name__=="__main__":
-     krik_krik_milzu)
+     krik_krik_milzu()
      mulai()
      krik_krik_milzu()
      peak()
