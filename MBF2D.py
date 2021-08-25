@@ -289,7 +289,7 @@ def mbf2d():
                            print("\033[90m> \033[00msaved to \033[1;93mresults-check.txt\033[90m|\033[1;92mresults-life.txt")
                    except FileNotFoundError:
                            exit("\033[00m[\033[91m!\033[00m] you not have a results")
-              else:
+                   else:
                            exit("\033[00m[\033[91m!\033[00m] wrong input")
               print()
               expass = input("\033[90m> \033[00mExtra Password: \033[1;92m")
