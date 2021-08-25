@@ -149,12 +149,12 @@ def mbf2d():
                             print(f"\r\033[00m[\033[1;91m{i}\033[00m] Life : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;91m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def uwu():
-    r=ses.get(mbasic.format('/me'),cookies=kukis).text
-    name=re.findall(r'<title>(.*?)</title>',r)[0]
-    uid=re.findall(r'name="target" value="(.*?)"',r)[0]
-    print("\033[96mNama Kamu \033[00m: \033[92m"+name)
-    print("\033[96mUID Kamu \033[00m: \033[92m"+uid)
-    print('\033[91m|♡|\033[90m─────────────────────\033[91m|♡|\033[00m')
+             r=ses.get(mbasic.format('/me'),cookies=kukis).text
+             name=re.findall(r'<title>(.*?)</title>',r)[0]
+             uid=re.findall(r'name="target" value="(.*?)"',r)[0]
+             print("\033[96mNama Kamu \033[00m: \033[92m"+name)
+             print("\033[96mUID Kamu \033[00m: \033[92m"+uid)
+             print('\033[91m|♡|\033[90m─────────────────────\033[91m|♡|\033[00m')
          def getid(url):
              raw = requests.get(url,cookies=kuki).content
              getuser = re.findall('middle"><a class=".." href="(.*?)">(.*?)</a>',str(raw))
