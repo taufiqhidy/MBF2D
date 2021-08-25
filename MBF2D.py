@@ -213,11 +213,7 @@ def mbf2d():
              for i in list('\|/-•'):
                             print(f"\r\033[00m[\033[1;91m{i}\033[00m] Life : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcheckpoint : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;91m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
-         if __name__ == '__main__':
-               try:
-                   ses = requests.Session()
-                   kukis = masuk()
-                   kuki = {'cookie':kukis}
+         def menu():   
                    krik_krik_milzu()
                    peak()
                    uwu()
